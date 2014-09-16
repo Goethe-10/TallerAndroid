@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<!-- Definición de los atributos propios de nuestra Custom View -->
     <declare-styleable name="OptionsColorView">
         <attr name="textString" format="string" localization="suggested"/>
         <attr name="optionsColor" format="color" />

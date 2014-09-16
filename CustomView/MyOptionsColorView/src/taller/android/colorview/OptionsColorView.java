@@ -7,7 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+/*
+ * Implementación de una compound view, hemos definido dos atributos
+ * que pueden ser utilizados desde XML y/o código java.
+ * */
 public class OptionsColorView extends LinearLayout {
 	public OptionsColorView(Context context, AttributeSet attrs) {
 		super(context, attrs);
