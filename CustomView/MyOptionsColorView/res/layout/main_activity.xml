@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:taller="http://schemas.android.com/apk/res/taller.android.colorview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <taller.android.colorview.OptionsColorView 
+        android:id="@+id/my_options_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        taller:textString="Mi Primera Custom View"
+        taller:optionsColor="@android:color/holo_green_dark"/>
+    
+    <taller.android.colorview.OptionsColorView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        taller:textString="Mi Segunda Custom View"
+        taller:optionsColor="@android:color/holo_orange_dark"/>
+    
+    
+    <EditText 
+        android:id="@+id/text_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button 
+        android:id="@+id/set_text_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poner Texto"
+        android:onClick="onButtonClick"/>
+</LinearLayout>
